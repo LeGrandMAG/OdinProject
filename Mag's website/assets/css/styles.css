@@ -6,9 +6,7 @@ body {
 .header {
     text-align: center;
 }
-.profile {
-    width: 100px;
-}
+
 .profile-name {
     margin-top: 5px;
     font-size: 36px;
