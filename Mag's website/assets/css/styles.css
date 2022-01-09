@@ -1,6 +1,8 @@
 body {
+    background-color: rgb(29,30,34);
+    color: white;
     padding: 20px;
-    font-family: 'Lato', sans-serif;
+    font-family: 'Jet';
     font-size: 16px;
 }
 .header {
