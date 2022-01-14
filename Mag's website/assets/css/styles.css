@@ -1,16 +1,38 @@
-body {
-    padding: 20px;
-    font-family: 'JetBrains Mono', serif;
-    font-size: 16px;
+:root{
+     --mainText: black;
+     --secondaryText: rgb(37, 37, 41);
+
+     --mainColor: rgb(171, 171, 189);
+     --secondaryColor: white;
+
+     --borderColor: rgb(32, 31, 37);
+    
+}
+
+html, body {
+    padding: 0;
+    margin: 0;
+    font-family: 'JetBrains Mono', monospace;
+    font-weight: 200;
 }
 .header {
     text-align: center;
 }
 
-.profile-name {
-    margin-top: 5px;
-    font-size: 36px;
+
+h1, h2, h3, h4, h5, h6, strong{
+    color:var(--mainText);
 }
+
+p,li , span, label, input, textarea{
+    color: var(--secondaryText);
+}
+
+a{
+    text-decoration:none;
+    color: rgb(11, 1, 160);
+}
+
 .profile{
     display: block;
     margin-left: auto;
@@ -19,54 +41,50 @@ body {
     width: 50px;
     margin: auto;
 }
-.content {
-    max-width: 700px;
-    margin-left: auto;
-    margin-right: auto;
-}
-p {
-    font-size: 16px;
-    line-height: 1.5;
-}
-a {
-    color: #258cdb;
-    text-decoration: none;
-}
-a:hover {
-    color: #2571db;
-}
-h1 {
-    font-size: 28px;
+.greeting-wrapper{
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    border: 4px dashed rgb(0, 0, 0);
+    min-height: 10em;
 }
 
-.ytp-chrome-top {
-    display: none !important;
+.s1{
+    background-color: var(--mainColor);
+    border-bottom: 1px solid var(--borderColor);
+    overflow: auto;
 }
+.s2{
+    background-color: var(--secondaryColor);
+    border-bottom: 1px solid var(--borderColor);
+    overflow: auto;
+}
+
+.main-container{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+<!--@media screen and (max-width: 1200px){
+    .main-container{
+        width: 95%;
+    }
+}
+
+
+
+
+
+
+
+
+
 
 
 .footer-basic{
-    display: flex;
+    display: grid;
     margin: auto;
     justify-content: space-between;
-}
-
-.embed {
-    position: relative;
-    padding-bottom: 56.25%;
-    height: 0;
-    overflow: hidden;
-    max-width: 100%;
-    margin-bottom: 10px;
-    margin-top: 10px;
-}
-.embed iframe, .embed object, .embed embed {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-}
-
-.post-date {
-    color: grey;
+    align-content:center;
+    align-content:flex-end;
 }
