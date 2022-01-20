@@ -29,7 +29,7 @@
     margin: auto;
     margin-top: 0;
     width: 100%;
-    opacity: .95;
+    opacity: 1;
     z-index: -1;
 }
 html, body {
@@ -67,6 +67,11 @@ body{
     text-align: center;
 }
 
+.title{
+    padding: 50px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+    text-align: center;
+}
 
 
 .prof{
@@ -97,11 +102,7 @@ p{
     color: white;
 
 }
-h2{
-    text-align: center;
-    color: white;
-    margin-top: 0;
-}
+
 .penguin {
 
 
@@ -165,17 +166,20 @@ a{
     }
 }
 
+h4{
+    text-align: center;
+    padding: 250px;
+}
 .footer-basic{
     /*background-color: rgba(255, 255, 255, .4);*/
-    background-image: linear-gradient(rgba(255, 255, 255, 0.4),rgb(255, 255, 255,0.6), rgba(255, 255, 255, .8));
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3));
     text-decoration-style: none;
-    color: white;
     margin: auto;
     margin-bottom: 0px;
     width: 100%;
 }
 ul{
-    margin: auto;
+    margin: 0 0 0 -15;
     text-align: center;
     text-decoration: none;
     color: white;
@@ -213,7 +217,7 @@ ul{
 .copyright{
     margin: auto;
     padding: 10px 0 10px 0;
-    color:rgb(0, 0, 0);
+    color:rgb(255, 255, 255);
     text-align: center;
 
 }
@@ -377,3 +381,12 @@ ul{
   .penguin * {
     position: absolute;
   }
+  .blink {
+    font-size: 20px;
+    animation: blinker 1s step-start infinite;
+  }
+  
+  @keyframes blinker {
+  50% {
+    opacity: 0;
+  }}
