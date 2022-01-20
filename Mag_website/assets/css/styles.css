@@ -81,6 +81,9 @@ ul li{
   z-index: 5;
 }
 
+main{
+  margin: auto;
+}
 .text1{
   width: 50%;
   padding: 5rem 5rem 5rem 5rem;
