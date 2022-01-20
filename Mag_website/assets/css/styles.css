@@ -73,6 +73,29 @@ ul li{
   list-style: none;
 }
 
+.dot{
+  position: relative;
+  top: 35px;
+  width: 20px;
+  height:20px;
+  background: white;
+  margin: auto;
+  border-radius: 60% 0% 0% 0%;
+  border: 5px ridge rgb(255, 255, 255);
+  transition: 0.3s;
+}
+.dot:hover{
+  background: black;
+  transform: scale(0.6);
+  transition: 0.5s;
+  border-radius: 60% 60% 60% 60%;
+}
+
+.paragraph{
+  margin: auto;
+  width: 80%;
+  text-align: justify;
+}
 .nav-left{
   position: absolute;
   width: 20px;
