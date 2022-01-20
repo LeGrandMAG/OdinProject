@@ -13,27 +13,18 @@
     /* Only change code above this line */
     
 }
-.bg-image{
-    position: fixed;
-    background-image: url(/Mag_website/assets/images/ME2.jpg);
-    margin: 0px 10px 50px 0px;
-    width: 80%;
-    height: 100%;
-    opacity: 0;
-    z-index: -1;
-    
-}
+
 
 .bg{
     position: fixed;
     margin: auto;
     margin-top: 0;
     width: 100%;
-    opacity: 1;
+    opacity: 0;
     z-index: -1;
 }
 html, body {
-    background-color:  RGBa(50,50,50,0.2);
+  background-color: rgba(50,50,50,1 );
     color: white;
     padding: 0;
     margin-top:0;
@@ -42,7 +33,7 @@ html, body {
     font-weight: 200;
 }
 body{
-    background-image: linear-gradient(to border-bottom,rgba(0,0,0,0),rgba(0, 0, 0, 0.75),rgba(0,0,0,0));
+    background-color: rgba(50,50,50,1 );
     width: 100%;
 }
 
@@ -81,7 +72,7 @@ body{
 
 }
 hr{clear: both;
-    width: 50%;
+    width: 25%;
     border: 0;
     height: 2px;
     background-image: linear-gradient(to right,rgba(0,0,0,0),rgba(255, 255, 255, 0.75),rgba(0,0,0,0));
@@ -141,19 +132,6 @@ a{
     min-height: 10em;
 }
 
-.s1{
-    background-color: var(--mainColor);
-    border-bottom: 1px solid var(--borderColor);
-    overflow: auto;
-}
-.s2{
-    background-color: var(--secondaryColor);
-    border-bottom: 1px solid var(--borderColor);
-    overflow: auto;
-}
-
-
-
 
 .main-container{
     width: 1200px;
@@ -166,13 +144,9 @@ a{
     }
 }
 
-h4{
-    text-align: center;
-    padding: 250px;
-}
 .footer-basic{
     /*background-color: rgba(255, 255, 255, .4);*/
-    background-image: linear-gradient(rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3));
+    background-color: rgba(255, 255, 255, 0.3);
     text-decoration-style: none;
     margin: auto;
     margin-bottom: 0px;
@@ -186,34 +160,6 @@ ul{
     list-style: none;
     padding: 10px 0 0 0;
 }
-
-
-
-
-.text1{
-    text-align: center;
-    margin-top: 40px;
-    align-content: center;
-}
-.text2{
-    margin: auto;
-    text-align: center;
-    margin-top: 40px;
-    align-content: center;
-    }
-    .text3{
-        margin: auto;
-        text-align: center;
-        margin-top: 40px;
-        align-content: center;
-        }
-
-
-
-
-
-
-
 .copyright{
     margin: auto;
     padding: 10px 0 10px 0;
@@ -221,8 +167,6 @@ ul{
     text-align: center;
 
 }
-
-
 
   .penguin-top {
     top: 10%;
@@ -376,13 +320,22 @@ ul{
     border-radius: 50%;
   }
 
+  a{
+    color: white;
+    font-family: monospace;
+    font-size: 16px;
+  }
 
 
   .penguin * {
     position: absolute;
   }
   .blink {
-    font-size: 20px;
+    text-align: center;
+    padding: 100px 0 0 0 ;
+    font-size: 13px;
+    margin: 0 0 0 0;
+    font-weight: 50;
     animation: blinker 1s step-start infinite;
   }
   
