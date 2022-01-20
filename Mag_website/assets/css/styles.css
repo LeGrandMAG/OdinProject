@@ -13,17 +13,56 @@
     /* Only change code above this line */
     
 }
-
-
-html, body {
-    background-color:  RGB(50,50,50);
+.bg-image{
+    position: fixed;
+    background-image: url(/Mag_website/assets/images/ME2.jpg);
+    margin: 0px 10px 50px 0px;
+    width: 80%;
+    height: 100%;
+    opacity: 0;
+    z-index: -1;
     
+}
+
+.bg{
+    position: fixed;
+    margin: auto;
+    margin-top: 0;
+    width: 100%;
+    opacity: .95;
+    z-index: -1;
+}
+html, body {
+    background-color:  RGBa(50,50,50,0.2);
     color: white;
     padding: 0;
-    margin: 0;
+    margin-top:0;
+    margin: auto;
     font-family: 'JetBrains Mono', monospace;
     font-weight: 200;
 }
+body{
+    background-image: linear-gradient(to border-bottom,rgba(0,0,0,0),rgba(0, 0, 0, 0.75),rgba(0,0,0,0));
+    width: 100%;
+}
+
+.sq{
+    margin-top: 0px;
+    margin: 0px 30% 10px 0px;
+    padding: 200px 0 0 0;
+    width: 300px;
+    margin-bottom: 10%;
+    padding: 0px 10px 10px 50px;
+}
+.onboard{
+    font-size: 200px;
+    color: white;
+    text-transform: uppercase;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding: 10px;
+}
+
 .header {
     text-align: center;
 }
@@ -42,21 +81,26 @@ hr{clear: both;
     height: 2px;
     background-image: linear-gradient(to right,rgba(0,0,0,0),rgba(255, 255, 255, 0.75),rgba(0,0,0,0));
 }
-.par1 p{
+.par1 {
+    margin-top: 0;
+    color: white;
+}
+p{
     margin: auto;
     margin-top: 50px;
     width: 500px;
     color: white;
     padding: 10px;
-}
-
-p{
     text-align: justify;
-    color:white;
+}
+.paragraph{
+    color: white;
+
 }
 h2{
     text-align: center;
     color: white;
+    margin-top: 0;
 }
 .penguin {
 
@@ -107,6 +151,9 @@ a{
     overflow: auto;
 }
 
+
+
+
 .main-container{
     width: 1200px;
     margin: 0 auto;
@@ -119,11 +166,13 @@ a{
 }
 
 .footer-basic{
-    background-color: rgba(255, 255, 255, 1);
+    /*background-color: rgba(255, 255, 255, .4);*/
+    background-image: linear-gradient(rgba(255, 255, 255, 0.4),rgb(255, 255, 255,0.6), rgba(255, 255, 255, .8));
     text-decoration-style: none;
     color: white;
     margin: auto;
-    margin-bottom: -15px;
+    margin-bottom: 0px;
+    width: 100%;
 }
 ul{
     margin: auto;
@@ -155,11 +204,6 @@ ul{
         align-content: center;
         }
 
-.sq{
-    margin-top: 10%;
-    margin-bottom: 10%;
-    padding: 10 10 10 10;
-}
 
 
 
