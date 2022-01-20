@@ -41,7 +41,7 @@ body{
     margin-top: 0px;
     margin: 0px 30% 10px 0px;
     padding: 200px 0 0 0;
-    width: 300px;
+    width: 100%;
     margin-bottom: 10%;
     padding: 0px 10px 10px 50px;
 }
@@ -145,12 +145,11 @@ a{
 }
 
 .footer-basic{
-    /*background-color: rgba(255, 255, 255, .4);*/
+
     background-color: rgba(255, 255, 255, 0.3);
     text-decoration-style: none;
     margin: auto;
-    margin-bottom: 0px;
-    width: 100%;
+
 }
 ul{
     margin: 0 0 0 -15;
