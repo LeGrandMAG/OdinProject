@@ -84,7 +84,7 @@ h4{
 .heroe1{
     background-image: linear-gradient(to bottom,
         rgba(0,0,0, 0.6),
-        rgba(0,0,0, 0.5)), url(/Mag_website/assets/images/bridge\ 1.jpg);
+        rgba(0,0,0, 0.5)), url(assets/images/bridge\ 1.jpg);
     background-position: center;
     background-size: cover;
     width: 100%;
