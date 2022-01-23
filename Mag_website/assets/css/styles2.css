@@ -84,7 +84,7 @@ h4{
 .heroe1{
     background-image: linear-gradient(to bottom,
         rgba(0,0,0, 0.6),
-        rgba(0,0,0, 0.5)), url(assets/images/bridge1.jpg);
+        rgba(0,0,0, 0.5)), url(https://magmukendi.com/assets/images/bridge1.jpg);
     background-position: center;
     background-size: cover;
     width: 100%;
@@ -102,7 +102,7 @@ h4{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding:  0rem 5rem 0 5rem;
+    padding:  0rem 5em 0 5em;
     text-align: justify;
 
 }
