@@ -58,19 +58,27 @@ margin: 0px auto 80px auto;
 #ball{
   transition: 0.5s;
   top: 150px;
-  width: 100px;
-  height: 100px;
-  border: 4px ridge black;
+  width: 80px;
+  height: 80px;
+  border: 2px ridge rgb(0, 0, 0);
   margin: auto;
   position: relative;
-  border-radius: 50%;
+  border-radius: 100%;
   background: linear-gradient(
     35deg, #ccffff,#ffcccc);
   animation-name: cbounce;
-  animation-duration: 1s;
+  animation-duration: 3s;
   animation-iteration-count: infinite;
 }
+.ab{
+  display: flex;
+  flex-direction: column;
+}
+main{
+  display: flex;
+  flex-direction: row;
 
+}
   @keyframes cbounce{
     0% {
       top: 80px;
@@ -84,6 +92,8 @@ margin: 0px auto 80px auto;
     100% {
       top: 80px;
       
+    }
+    
     }
   }
   #beating-heart{
@@ -162,6 +172,23 @@ margin: 0px auto 80px auto;
     text-align: center;
 }
 
+ul{
+  height: 100%;
+  width: 100%;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  padding: 0px;
+  justify-content: space-between;
+}
+
+.right{
+  display: flex;
+  flex-shrink: 2;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
 #nav-bar{
   position: fixed;
   top: 0px;
@@ -219,9 +246,9 @@ ul li{
   text-align: justify;
 }
 .nav-left{
-  position: absolute;
-  left: 20px;
+  margin: auto 0px auto 0px;
   color: black;
+  text-align: center;
   z-index: 5;
 }
 
@@ -230,11 +257,11 @@ ul li{
   font-family: monospace;
   color: black;
   font-size: 16px;
-  text-align: right;
+  text-align: center;
   text-decoration: none;
   text-decoration-line: none;
   transition: all 0.2s ease-in-out;
-  padding: 100%;  
+  padding: auto;  
 }
 
 #home:hover, #insta:hover{
@@ -249,7 +276,7 @@ ul li{
    height: 300px;
    background:black;
    margin: auto;
-   margin-top: 100px;
+   border: 5px ridge white;
    transition: 0.2s;
    z-index: 5;
  }
