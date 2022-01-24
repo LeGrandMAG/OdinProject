@@ -111,7 +111,7 @@ h4{
     font-family: "Lora";
     color: white;
     z-index: 5;
-    font-size: 12em;
+    font-size: 12vw;
     text-align: center;
     margin-bottom: 0px;
 }
@@ -133,8 +133,9 @@ h4{
     align-items: center;
 
 }
-.bridge2{
+.post2{
     width: 80%;
     height: auto;
+}
     
 }
